@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <Showcase></Showcase>
+    </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Showcase from './components/Showcase.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    name: 'App',
+    components: {
+        Showcase
+    }
 }
 </script>
-
 <style lang="scss">
+@import "./assets/main.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-family;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: $font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
 }
 </style>

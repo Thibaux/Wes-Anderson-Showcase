@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+
+
+// Variables
+
+
+// COLORS
+$bg-white: #eeeeee;
+
+
+// Background films
+$bg-GB: #D9878B;
+$bg-MK: #D9B352;
+
+
+// primary
+// $primary: 
+
+
+// FONT
+$font-family: 'Comfortaa',
+cursive;
+$font-family-title: 'Trocchi',
+serif;
+
+$font-size: 1.4rem;
+$font-size-stext: 1.1rem;
+
+// NAVBAR
+.bm-menu {
+    border-bottom-left-radius: 50%400px;
+    border-top-left-radius: 50%400px;
+}
+
+.bm-cross-button span {
+    right: -220px;
+    top: 10px;
+}
+
+@media screen and (max-width: 769px) {
+    .bm-burger-button {
+        width: 26px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bm-burger-button {
+        width: 19px;
+        height: 15px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {}

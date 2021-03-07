@@ -1,5 +1,20 @@
 # wes-showcase
 
+
+A site showcasing Wes Anderson. Showing the films he directed. 
+
+> Build with Vue.js
+
+> Used axios
+
+> API used: [The movie database API](https://www.themoviedb.org/)
+
+> Hosted on Netlify
+
+
+TODO
+
+
 ## Project setup
 ```
 yarn install
